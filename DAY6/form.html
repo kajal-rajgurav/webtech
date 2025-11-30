@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from</title>
+</head>
+<body>
+   <form action="./welcome.html" target="_blank">
+    <label for="username">username</label>
+    <input type="text" name="username" id="username" required><br>
+    <label for="password">password :</label>
+    <input type="password" name="password" id="password" required> <br>
+    <label for="DOB">ENTER DOB</label>
+    <input type="date" name="date" id="DOB"> <br>
+    <label for="phone">phone</label>
+    <input type="number" name="phone" id="phone"> <br>
+    <label for="gender">select gender</label>
+    <div id="gender">
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">female</label>
+        <input type="radio" name="others" id="others" value="others">
+        <label for="others">others</label>
+    </div>
+    <select name="country" id="country">
+        <option value="">select country</option>
+        <option value="india">india</option>
+        <option value="thailand">thailand</option>
+        <option value="asia"></option>
+        <option value="rusia">rusia</option>
+        
+    </select>
+    <button type="submit">log in</button>
+    <button type="button">create new account</button>
+    <button type="reset">reset</button>
+
+   </form> 
+</body>
+</html>
