@@ -1,0 +1,15 @@
+.cantainer{
+    height: 20vh;
+    width: 80%;
+    border: 1px solid black;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.flex-item{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}

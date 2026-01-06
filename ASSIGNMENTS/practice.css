@@ -1,0 +1,37 @@
+div{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: blue;
+    cursor: pointer;
+    color: rgb(255, 0, 102);
+    padding: 5px;
+    margin:2px;
+    border: 1px dashed gray;
+    border-color: blueviolet;
+
+
+}
+form{
+    margin: auto;
+    width: 50%;
+    height: 500%;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: blueviolet;
+    color: black;
+    flex-direction:column;
+
+
+}
+label{
+    margin-bottom: 10px;
+    background-color: aqua;
+    text-indent: 0;
+}
+input{
+    margin-bottom: 10px;
+    background-color: brown;
+    color: aliceblue;
+}

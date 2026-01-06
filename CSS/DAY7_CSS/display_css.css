@@ -1,0 +1,32 @@
+a{
+    display: block;
+}
+span{
+    display: block;
+}
+h1{
+    display: inline;
+}
+h2{
+    display: inline;
+}
+h3{display:inline
+
+}
+h4{
+    display:inline
+}
+img{
+    display: block;
+    height: 400px;
+    width: 400px;
+    flex-direction: column;
+
+}
+#img{
+    display: inline;
+}
+#head2{
+    visibility: hidden;
+
+}

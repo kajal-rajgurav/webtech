@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+    <div>
+    <form action="assignment1.html">
+        <label for="firstname">first name</label>
+        <input type="text" name="firstname" id="firstname" required placeholder="enter your name"> <br> <br>
+        <label for="lastname">last name</label> 
+        <input type="text" name="lastname" id="lastname" required placeholder="enter your lastname"> <br> <br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" required> <br> <br>
+        <label for="phonenumber">phonenumber</label>
+        <input type="tel" maxlength="10"  name="phonenumber" id="phonenumber" required> <br> <br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" required> <br> <br>
+        <label for="gender">select gender</label>
+        <div id="gender">
+            <input type="radio" name="gender" id="male" value="male"> 
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" value="female"> 
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="other" value="others"> 
+            <label for="others">others</label>
+        </div>
+        <label for="country"></label>
+        <select name="country" id="country" pl>
+            <option value="">select country</option>
+            <option value="russia">russia</option>
+            <option value="india">india</option>
+            <option value="thailand">thailand</option>
+            <option value="america">america</option>
+            <option value="france">france</option>
+            <option value="japan">japan</option>
+        </select> <br> <br>
+        <input type="checkbox" name="accept terms & condition" id="accept terms & condition" required>
+        <label for="accept terms & condition">accept terms & condition</label> <br> <br>
+        <button type="submit" class="btn">submit</button>
+
+    </form>
+    </div>
+</body>
+</html>
