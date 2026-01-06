@@ -1,0 +1,15 @@
+html{
+    font-size: 20px;
+    border-right-color: blueviolet;
+}
+.container{
+    height: 300mm;
+    width: 300mm;
+    /* background: red; */
+    border: 2px solid color(srgb hsl(0, 100%, 50%) green blue);
+    border-bottom: 2px dotted color pink;
+}
+.class{
+    color: chocolate;
+   border-width: 1cm:solid;
+}
